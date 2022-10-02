@@ -1,0 +1,121 @@
+.background{
+  position: fixed;
+  left: 406px;
+  right: 58px;
+  top: 0px;
+  bottom: 1.5px;
+  border: none;
+  height: 101%;
+  width: 101%;
+  object-fit: contain;
+
+}
+img {
+  height: 100%;
+  width: 100%;
+  object-fit: contain;
+}
+
+.logo-vivo {
+  background-size: cover;
+  position: fixed;
+  left: 350px;
+  right: 62.78%;
+  top: 160px;
+  bottom: 74.37%;
+  height:34.95px;
+  width: 235.03px;
+
+}
+
+.subtitulo-um{
+  position: fixed;
+  width: 325px;
+  top: 200px;
+  left: 375px;
+}
+
+.subtitulo-dois{
+  position: fixed;
+  width: 328px;
+  height: 66px;
+  top: 235px;
+  left: 305px;
+}
+
+
+.letra{
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 100;
+  font-size: 24px;
+  line-height: 0px;
+  color: black;
+}
+
+
+input{
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 20px;
+  font-size: 15px;
+  line-height: 5px;
+  position: relative;
+  height: 24px;
+  left: 290px;
+  right: 16px;
+  top: 310px;
+  padding: 15px;
+  padding-top: 15px;
+  padding-right: 10px;
+  padding-left: 10px;
+  padding-bottom: 10px;
+}
+
+
+.input-estilo::placeholder {
+  color: black;
+}
+
+.input-estilo{
+  color: #000000;
+  border-top-style: hidden;
+  border-left-style: hidden;
+  border-right-style: hidden;
+  border-bottom-style: groove;
+  border-bottom-color: #ffffff ;
+}
+
+.input-email{
+  border-top-style: hidden;
+  border-left-style: hidden;
+  border-right-style: hidden;
+  border-bottom-style: dotted;
+  border-bottom-color: #d4cece ;
+}
+
+
+.botao-classico{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 4px, 16px, 4px, 16px;
+  position: absolute;
+  left: 370px;
+  right: 63.85px;
+  top: 570px;
+  border: none;
+  border-radius: 8px;
+  margin: 4px;
+  width: 192px;
+  height: 48px;
+  background-color: #660099;
+  color: white;
+  cursor: pointer;
+  font-family: 'Open Sans';
+}
+
+.botao-classico:hover{
+  background-color: #740ca8;
+}
